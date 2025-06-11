@@ -1,0 +1,27 @@
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.module-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.module-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.testimonial-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("/storage/images/road-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
