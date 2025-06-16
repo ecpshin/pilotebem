@@ -1,5 +1,5 @@
 <x-site-layout>
-  
+    {{-- ideias para o laytou criar um banner para inscrição do evento --}}
     <!-- Hero Section -->
     <section class="hero-section flex items-center justify-center text-white" style="background-image: url({{ asset('images/motocycle_bg.png') }})">
         <div class="container mx-auto px-4 text-center">
@@ -7,7 +7,7 @@
             <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto bg-black bg-opacity-50 rounded-full p-3">Aprimore suas habilidades com nossos módulos teóricos e práticos, desenvolvidos por especialistas em pilotagem segura.</p>
             <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
                 <a href="#modules" class="bg-blue-700 hover:bg-yellow-500 text-white-900 hover:text-emerald-700 font-bold py-3 px-8 rounded-lg transition transform hover:scale-105">
-                    Começar Agora
+                    Increve-se Já
                 </a>
                 <a href="#modules" class="bg-emerald-800 hover:bg-white hover:text-blue-900 font-bold py-3 px-8 rounded-lg transition">
                     Conhecer os Módulos

@@ -12,9 +12,9 @@ return new class extends Migration {
     {
         Schema::create('eventos', function (Blueprint $table) {
             $table->id();
-            $table->string('cidade');
-            $table->string('regiao')->nullable()->default('Metroplitana');
+            $table->string('nome_evento')->nullable()->default(null);
             $table->date('data_evento')->nullable()->default(null);
+            $table->text('banner_path')->nullable();
             $table->boolean('ativo')->default(true);
             $table->timestamps();
         });

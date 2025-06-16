@@ -12,8 +12,9 @@ return new class extends Migration {
     {
         Schema::create('regioes', function (Blueprint $table) {
             $table->id();
-            $table->string('nome_regiao')->nullable()->default('Metroplitana');
-            $table->string('municipio_regiao')->nullable();
+            $table->string('municipio')->nullable();
+            $table->string('regiao')->nullable()->default('Metroplitana');
+            $table->string('uf')->nullable()->default('RN');
             $table->boolean('ativo')->default(true);
             $table->timestamps();
         });
